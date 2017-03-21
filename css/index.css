@@ -1,0 +1,158 @@
+.perro {
+  background-color:rgb(245,163,39);
+  text-align: center;
+  font-family: sans-serif;
+  padding: 2em 1em;
+  width: 100%;
+  height: 10em;
+}
+.perro p{
+  color: #fff;
+  font-size: 3em;
+  position: relative;
+}
+.rojo p{
+  color: #fff;
+  font-size: 3em;
+  position: relative;
+}
+
+.rojo {
+  background-color: rgb(245,76,76);
+  text-align: center;
+  font-family: sans-serif;
+  padding: 2em 1em;
+  width: 100%;
+  height: 10em;
+}
+
+.show-content {
+  animation-name: show-content;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation: hide-content 1s;
+}
+.hide-content {
+  animation-name: hide-content;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation: hide-content 1s;
+}
+
+@-webkit-keyframes show-content {
+  0 {
+    opacity: 0 !important;
+    top: 0 !important;
+  }
+  100% {
+    opacity: 100 !important;
+    top: 3em !important;
+  }
+}
+
+@keyframes show-content {
+  0 {
+    opacity: 0;
+    top: 0;
+  }
+  100% {
+    opacity: 100 !important;
+    top: 3em !important;
+  }
+}
+@-webkit-keyframes hide-content {
+  0 {
+    opacity: 100 !important;
+    top: 3em !important;
+  }
+  100% {
+    opacity: 0 !important;
+    top: 0 !important;
+  }
+}
+
+@keyframes hide-content {
+  0 {
+    opacity: 100 !important;
+    top: 3em !important;
+  }
+  100% {
+    opacity: 0 !important;
+    margin-top: 0 !important;
+  }
+}
+
+#change {
+  background: rgb(18,224,138);
+  color: #fff;
+  margin: 2em 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  border: 0;
+  padding: 2em 1em;
+  width: 10em;
+  transition: 1s;
+}
+
+#change:hover {
+  background-color: rgb(12,181,90);
+  transition: 0.5s;
+  padding: 1.5em 1em;
+  width: 9em;
+}
+
+#dad {
+  background: rgb(20,133,168);
+  padding: 0;
+  width: 20em;
+}
+#dad li {
+  font-family: sans-serif;
+  color: #fff;
+  border-top: 1px solid rgba(225, 225, 225, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 1em 0.5em;
+}
+
+
+.box-blue {
+  background-color: rgb(0,102,255) !important;
+  padding: 3em;
+  height: 30px;
+  width: 30%;
+  color:white;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.box-red {
+  background-color: rgb(242,77,61) !important;
+  padding: 3em;
+  height: 30px;
+  width: 30%;
+  color: white;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+#boxs {
+  padding:0 !important;
+}
+#boxs li {
+  background-color: rgb(27,148,236);
+  color: #fff;
+  display: inline-block;
+  padding: 2% 0;
+  width: 33%;
+}
+#boxs li p {
+  font-family: sans-serif;
+  line-height: 1.4em;
+  padding: 0 2em;
+}
+#boxs li.new-text {
+  color: white;
+  font-family: sans-serif;
+}
