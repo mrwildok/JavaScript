@@ -50,8 +50,7 @@ var botonColor = document.getElementById("change");
 // function to change color
 
 (function(){
-botonColor.addEventListener("click", function (){
-  changeColor.classList.add.toggle("rojo");
-  changeColor.classList.toggle("perro")
+botonColor.addEventListener("click", function(){
+  changeColor.classList.toggle("perro");
 });
 }())
