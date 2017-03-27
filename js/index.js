@@ -54,3 +54,26 @@ botonColor.addEventListener("click", function(){
   changeColor.classList.toggle("perro");
 });
 }())
+
+
+
+// main whit js
+
+var nameMain = document.getElementById("main");
+var mainContainer = document.createElement("ul");
+var mainList = document.createElement("li");
+var mainLinks = document.createElement("a");
+//var tagLink = document.createTextNode("Item");
+var numberItem = 6;
+
+
+/*var multiplicar = function(){
+  return(mainList * numberItem);
+};
+
+multiplicar();*/
+
+
+nameMain.appendChild(mainContainer);
+mainContainer.appendChild(mainList);
+mainList.appendChild(mainLinks);
